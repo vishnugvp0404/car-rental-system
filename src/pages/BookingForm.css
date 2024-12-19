@@ -1,0 +1,91 @@
+/* Container for the Booking Form */
+.booking-form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Heading Styling */
+  .booking-form-heading {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  /* Form Styling */
+  .booking-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  /* Label Styling */
+  .form-label {
+    font-size: 1rem;
+    color: #555;
+    text-align: left;
+    margin-bottom: 5px;
+  }
+  
+  /* Input Fields Styling */
+  .form-input {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-input:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+  }
+  
+  /* Button Styling */
+  .submit-btn {
+    background-color: #3498db;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Error Message Styling */
+  .error-message {
+    color: #e74c3c;
+    font-size: 0.9rem;
+    margin-top: 10px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 480px) {
+    .booking-form-container {
+      padding: 20px;
+    }
+  
+    .booking-form-heading {
+      font-size: 1.8rem;
+    }
+  
+    .submit-btn {
+      font-size: 1rem;
+    }
+  }
+  

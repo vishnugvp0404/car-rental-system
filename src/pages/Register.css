@@ -1,0 +1,93 @@
+/* Container for the Register Page */
+.register-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  /* Heading Styling */
+  /* Styling for the welcome message */
+h1 {
+    font-family: 'Arial', sans-serif;
+    color: #2c3e50;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 36px;
+    text-shadow: 1px 1px 2px #7f8c8d;
+}
+
+p {
+    font-family: 'Verdana', sans-serif;
+    color: #34495e;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+  
+  /* Form Styling */
+  .register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Input Fields Styling */
+  .form-input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .form-input:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+  }
+  
+  /* Button Styling */
+  .register-btn {
+    background-color: #3498db;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .register-btn:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Error Message Styling */
+  .error-message {
+    color: #e74c3c;
+    font-size: 0.9rem;
+    margin-top: 10px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 480px) {
+    .register-container {
+      padding: 20px;
+    }
+  
+    .register-heading {
+      font-size: 1.8rem;
+    }
+  
+    .register-btn {
+      font-size: 1rem;
+    }
+  }
+  

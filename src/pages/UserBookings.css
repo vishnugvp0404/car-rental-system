@@ -1,0 +1,79 @@
+/* Container for the User Bookings page */
+.user-bookings-container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Heading Styling */
+  .user-bookings-heading {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  /* Empty state for no bookings */
+  .user-bookings-container p {
+    text-align: center;
+    color: #888;
+    font-size: 1rem;
+  }
+  
+  /* Styling for individual Booking Cards */
+  .booking-card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  /* Styling for each booking card */
+  .booking-card {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .booking-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Additional styling for Booking details inside the card */
+  .booking-card .card-details {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .booking-card .card-details span {
+    font-weight: bold;
+  }
+  
+  .booking-card .card-actions {
+    text-align: right;
+  }
+  
+  .booking-card .card-actions button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .booking-card .card-actions button:hover {
+    background-color: #2980b9;
+  }
+  
